@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- daisyui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <style></style>
+  <body class="bg-gray-400 h-screen">
+    <h1>Calculator</h1>
+    <section class="flex items-center justify-center">
+      <div
+        class="h-[600px] w-[400px] bg-slate-700 flex flex-col items-center justify-center gap-10 rounded-md"
+      >
+        <div class="h-[100px] w-[300px] bg-slate-300 rounded-lg relative">
+          <div class="text-6xl absolute bottom-4 right-1" id="display"></div>
+        </div>
+        <div
+          class="h-[400px] w-[350px] bg-slate-600 rounded-md grid grid-cols-4 gap-3"
+          id="buttons"
+        >
+          <button class="btn btn-soft h-auto text-3xl">1</button>
+          <button class="btn btn-soft h-auto text-3xl">2</button>
+          <button class="btn btn-soft h-auto text-3xl">3</button>
+          <button class="btn btn-soft h-auto text-3xl">4</button>
+          <button class="btn btn-soft h-auto text-3xl">5</button>
+          <button class="btn btn-soft h-auto text-3xl">6</button>
+          <button class="btn btn-soft h-auto text-3xl">7</button>
+          <button class="btn btn-soft h-auto text-3xl">8</button>
+          <button class="btn btn-soft h-auto text-3xl">9</button>
+          <button class="btn btn-soft h-auto text-3xl">0</button>
+          <button class="btn btn-soft h-auto text-3xl">+</button>
+          <button class="btn btn-soft h-auto text-3xl">-</button>
+          <button class="btn btn-soft h-auto text-3xl">*</button>
+          <button class="btn btn-soft h-auto text-3xl">/</button>
+          <button class="btn btn-soft h-auto text-3xl">=</button>
+          <button class="btn btn-soft h-auto text-3xl">C</button>
+        </div>
+      </div>
+    </section>
+    <script src="js.js"></script>
+  </body>
+</html>
